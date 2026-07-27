@@ -1,0 +1,42 @@
+// =========================
+// WEEK 3 - OOP in TypeScript
+// =========================
+
+// Class with properties and methods
+class Student {
+
+    // readonly property
+    readonly college: string = "Shri Vishnu Engineering College for Women";
+
+    // static property
+    static university: string = "JNTU Kakinada";
+
+    constructor(
+        public name: string,
+        private rollNo: number,
+        protected branch: string
+    ) {}
+
+    // Method
+    display(): void {
+        console.log("Name:", this.name);
+        console.log("Roll No:", this.rollNo);
+        console.log("Branch:", this.branch);
+        console.log("College:", this.college);
+    }
+
+    showUniversity(): void {
+        console.log("University:", Student.university);
+    }
+}
+
+const s1 = new Student("Lahari", 101, "CSE-AI&ML");
+
+console.log("----- Student Details -----");
+s1.display();
+
+console.log("\nPublic Property:");
+console.log(s1.name);
+
+console.log("\nStatic Property:");
+s1.showUniversity();
