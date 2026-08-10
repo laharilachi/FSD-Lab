@@ -1,4 +1,4 @@
-"use strict";
+
 // Function with return type
 function add(a, b) {
     return a + b;
