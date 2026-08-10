@@ -1,7 +1,3 @@
-// =========================
-// WEEK 3 - OOP in TypeScript
-// =========================
-
 // Class with properties and methods
 class Student {
 
