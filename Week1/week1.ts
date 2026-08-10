@@ -1,8 +1,4 @@
-// ==============================
-// WEEK 1 - TypeScript Basics
-// ==============================
 
-// ---------- Simple Types ----------
 
 // Number
 let age: number = 20;
@@ -18,7 +14,6 @@ console.log("Age:", age);
 console.log("Name:", studentName);
 console.log("Student:", isStudent);
 
-// ---------- Special Types ----------
 
 // any
 let data: any = "Hello";
