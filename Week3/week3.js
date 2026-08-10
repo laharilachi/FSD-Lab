@@ -4,7 +4,7 @@ class Student {
     name;
     rollNo;
     branch;
-    // readonly property
+    
     college = "Shri Vishnu Engineering College for Women";
     // static property
     static university = "JNTU Kakinada";
