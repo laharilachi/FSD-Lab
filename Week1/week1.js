@@ -1,9 +1,4 @@
-"use strict";
-// ==============================
-// WEEK 1 - TypeScript Basics
-// ==============================
-// ---------- Simple Types ----------
-// Number
+
 let age = 20;
 // String
 let studentName = "Lahari";
@@ -13,7 +8,7 @@ console.log("----- Simple Types -----");
 console.log("Age:", age);
 console.log("Name:", studentName);
 console.log("Student:", isStudent);
-// ---------- Special Types ----------
+
 // any
 let data = "Hello";
 console.log("\n----- Any Type -----");
